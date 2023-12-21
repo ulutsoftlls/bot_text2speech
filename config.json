@@ -1,0 +1,21 @@
+{
+  "model": {
+    "Нурай" : {
+      "model": "models/checkpoint_103500",
+      "waveglow": "models/waveglow_124000"
+    },
+    "Нурбек": {
+      "model": "models/checkpoint_43500",
+      "waveglow": "models/waveglow_200000"
+    },
+    "Клара": {
+    	"model": "models/kg_35k",
+        "waveglow": "models/klara"
+    },
+    "Жолдошбек": {
+    	"model": "models/zholdosh_ch",
+        "waveglow": "models/waveglow_124000"
+    }
+  },
+  "bot_token": "6148254296:AAHlfkUDATOiez5A9fP4nDdKleX9Zrb9--g"
+}
