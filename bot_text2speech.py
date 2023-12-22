@@ -38,7 +38,6 @@ def handle_text(message):
         if selected_option == "Тандоо жок":
             selected_option = "Нурай"
         model = models[selected_option]
-        audio_file_path=""
         try:
             audio_file_path = model.convert(message.text) + ".mp3"
         except ReadTimeout:  # Обрабатываем исключение ReadTimeout
